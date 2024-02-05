@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Kaitlyn</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.webp">
+    <style>
+      #gallery-container {
+          margin: auto;
+          width: 1000px;
+        }
+
+      div.gallery {
+        margin: 5px;
+          border: 1px solid #ccc;
+          color: black;
+          text-align: center;
+          float: left;
+          width: 180px;
+        }
+        
+      div.gallery:hover {
+          border: 1px solid grey;
+        }
+        
+      div.gallery img {
+          width: 100%;
+          height: auto;
+          filter: grayscale(100%);  
+        }
+
+      div.gallery img:hover {
+          filter: none;
+      }
+        
+      div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center">GALLERY</h1>
+
+    <div class="nav-container">
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="gallery.html" class="active-nav">GALLERY</a>
+    </div>
+    
+    <div id="gallery-container">
+    <div class="gallery">
+        <a target="_blank" href="images/rockmore.jpg">
+          <img src="images/rockmore.jpg" alt="Clara Rockmore" width="700" height="500">
+        </a>
+        <div class="desc">Clara Rockmore playing the theremin.</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="images/leon_theremin.jpg">
+          <img src="images/leon_theremin.jpg" alt="Leon Theremin" width="600" height="400">
+        </a>
+        <div class="desc">Leon Theremin playing the theremin.</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="images/modern_theremin_playing.png">
+          <img src="images/modern_theremin_playing.png" alt="Leon and Clara" width="600" height="400">
+        </a>
+        <div class="desc">Carolina Eyck playing a modern theremin.</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="images/orange_theremin.webp">
+          <img src="images/orange_theremin.webp" alt="Modern theremin" width="600" height="400">
+        </a>
+        <div class="desc">A modern theremin.</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="images/clara-leon.jpg">
+          <img src="images/clara-leon.jpg" alt="Woman playing modern theremin." width="600" height="400">
+        </a>
+        <div class="desc">Leon Theremin and Clara Rockmore together.</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="images/lavinia-williams.jpg">
+          <img src="images/lavinia-williams.jpg" alt="Lavinia Williams, dancer." width="600" height="400">
+        </a>
+        <div class="desc">Lavinia Williams, an African American dancer and the first wife of Leon Theremin.</div>
+      </div>
+      </div>
+
+</body>
+</html>
